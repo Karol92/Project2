@@ -1,0 +1,266 @@
+/* line 1, ../sass/_global.scss */
+.font__global, button {
+  font-family: 'Barlow', sans-serif;
+}
+
+/* line 5, ../sass/_global.scss */
+.design {
+  height: 500px;
+  width: 800px;
+  background-color: white;
+  padding: 15px;
+  box-shadow: 50px 100px 150px #2c3e50;
+  margin: 100px auto;
+}
+
+/* line 14, ../sass/_global.scss */
+th .table__notes {
+  border: 3px solid black;
+  width: 200px;
+  height: 50px;
+  box-sizing: border-box;
+}
+
+/* line 21, ../sass/_global.scss */
+body {
+  background-color: #bce1ff;
+  font-family: 'Barlow', sans-serif;
+  margin: 0;
+}
+
+/* line 27, ../sass/_global.scss */
+table {
+  border-collapse: collapse;
+  float: left;
+  margin-left: 20px;
+  box-shadow: 10px 10px 15px #2c3e50;
+}
+
+/* line 34, ../sass/_global.scss */
+td {
+  border: 3px solid black;
+  max-width: 200px;
+  max-height: 200px;
+  overflow: auto;
+  padding: 0;
+}
+
+/* line 42, ../sass/_global.scss */
+tr {
+  background-color: white;
+  margin: 30px;
+  box-sizing: border-box;
+  max-height: 200px;
+}
+
+/* line 49, ../sass/_global.scss */
+th {
+  background-color: #ffe97c;
+}
+
+/* line 53, ../sass/_global.scss */
+li {
+  width: 100%;
+  height: 20px;
+  background-color: #e3e6e1;
+  margin-top: 0;
+  border-bottom: inset;
+  cursor: pointer;
+}
+
+/* line 62, ../sass/_global.scss */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* line 68, ../sass/_global.scss */
+.icon__comment {
+  float: right;
+  color: black;
+  cursor: pointer;
+}
+/* line 72, ../sass/_global.scss */
+.icon__comment:hover {
+  color: #18bc9c;
+}
+
+/* line 77, ../sass/_global.scss */
+button {
+  width: 100px;
+  height: 30px;
+  background-color: #18bc9c;
+  margin: 5px;
+  border-radius: 9px;
+  font-weight: 700;
+}
+
+/* line 87, ../sass/_global.scss */
+.fa {
+  float: right;
+}
+/* line 89, ../sass/_global.scss */
+.fa:hover {
+  color: #18bc9c;
+  cursor: pointer;
+}
+
+/* line 94, ../sass/_global.scss */
+.drop {
+  min-height: 200px;
+  background-color: white;
+}
+
+/* line 98, ../sass/_global.scss */
+.mdc-card {
+  width: 30%;
+  margin: auto;
+  background-color: white;
+}
+
+/* line 103, ../sass/_global.scss */
+textarea {
+  resize: none;
+}
+
+/* line 106, ../sass/_global.scss */
+.mdc-form-field {
+  display: block;
+}
+
+/* line 109, ../sass/_global.scss */
+.mdc-text-field--box {
+  width: 70%;
+}
+
+/* line 113, ../sass/_global.scss */
+.mdc-text-field--textarea {
+  width: 70%;
+  margin-left: 10px;
+  border: none;
+}
+
+/* line 1, ../sass/_notes.scss */
+.notes {
+  height: 400px;
+  width: 200px;
+}
+/* line 4, ../sass/_notes.scss */
+.notes > .scroll {
+  overflow: auto;
+  height: 408px;
+}
+
+/* line 1, ../sass/_table.scss */
+.horizontal {
+  height: 50px;
+  width: 200px;
+  border: 3px solid black;
+}
+
+/* line 6, ../sass/_table.scss */
+.vertical {
+  height: 200px;
+  max-width: 50px;
+  width: 50px;
+  border: 3px solid black;
+}
+
+/* line 12, ../sass/_table.scss */
+.empty {
+  opacity: 0;
+}
+
+/* line 15, ../sass/_table.scss */
+.text__vertical {
+  transform: rotate(270deg);
+  color: black;
+  white-space: nowrap;
+}
+
+/* line 20, ../sass/_table.scss */
+.td__task {
+  max-height: 200px;
+  width: 200px;
+}
+/* line 23, ../sass/_table.scss */
+.td__task > .box {
+  overflow: auto;
+  height: 200px;
+}
+
+/* line 3, ../sass/list__tasks.scss */
+.list__style {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+/* line 7, ../sass/list__tasks.scss */
+.list__style:hover {
+  color: red;
+}
+
+/* line 1, ../sass/_new__task.scss */
+.new__task {
+  width: 200px;
+  background-color: #edf4ff;
+  border: 3px solid black;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 10px 10px 120px white;
+}
+
+/* line 10, ../sass/_new__task.scss */
+.modal {
+  margin-top: auto;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 160px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: white;
+  background-color: rgba(130, 130, 130, 0.5);
+}
+
+/* line 26, ../sass/_new__task.scss */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 20%;
+}
+
+/* line 34, ../sass/_new__task.scss */
+.close {
+  color: #000000;
+  float: right;
+  margin-left: 95%;
+}
+
+/* line 40, ../sass/_new__task.scss */
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* line 47, ../sass/_new__task.scss */
+.mdc-text-field--box {
+  background-color: white;
+  margin-left: 10px;
+  clear: left;
+}
+
+@media only screen and (min-width: 2000px) {
+  /* line 2, ../sass/media/_media-md-down.scss */
+  .design {
+    width: 50%;
+  }
+}

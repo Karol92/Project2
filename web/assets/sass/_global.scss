@@ -1,0 +1,117 @@
+.font__global {
+  font-family: 'Barlow', sans-serif;
+}
+
+.design {
+  height: 500px;
+  width: 800px;
+  background-color: white;
+  padding: 15px;
+  box-shadow: 50px 100px 150px #2c3e50;
+  margin: 100px auto;
+}
+
+th .table__notes {
+  border: 3px solid black;
+  width: 200px;
+  height: 50px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #bce1ff;
+  font-family: 'Barlow', sans-serif;
+  margin: 0;
+}
+
+table {
+  border-collapse: collapse;
+  float: left;
+  margin-left: 20px;
+  box-shadow: 10px 10px 15px #2c3e50;
+}
+
+td {
+  border: 3px solid black;
+  max-width: 200px;
+  max-height: 200px;
+  overflow: auto;
+  padding: 0;
+}
+
+tr {
+  background-color: white;
+  margin: 30px;
+  box-sizing: border-box;
+  max-height: 200px;
+}
+
+th {
+  background-color: #ffe97c;
+}
+
+li {
+  width: 100%;
+  height: 20px;
+  background-color: #e3e6e1;
+  margin-top: 0;
+  border-bottom: inset;
+  cursor: pointer;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.icon__comment {
+  float: right;
+  color: black;
+  cursor: pointer;
+  &:hover {
+    color: #18bc9c;
+  }
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  background-color: #18bc9c;
+  margin: 5px;
+  border-radius: 9px;
+  @extend .font__global;
+  font-weight: 700;
+}
+
+.fa {
+  float: right;
+  &:hover {
+    color: #18bc9c;
+    cursor: pointer;
+  }
+}
+.drop{
+  min-height: 200px;
+  background-color: white;
+}
+.mdc-card{
+  width: 30%;
+  margin: auto;
+  background-color: white;
+}
+textarea {
+  resize: none;
+}
+.mdc-form-field {
+  display: block;
+}
+.mdc-text-field--box{
+  width: 70%;
+}
+
+.mdc-text-field--textarea{
+  width: 70%;
+  margin-left: 10px;
+  border: none;
+}
