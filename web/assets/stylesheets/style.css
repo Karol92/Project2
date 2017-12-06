@@ -7,13 +7,14 @@
 .design {
   height: 500px;
   width: 800px;
+  max-width: 800px;
   background-color: white;
   padding: 15px;
   box-shadow: 50px 100px 150px #2c3e50;
   margin: 100px auto;
 }
 
-/* line 14, ../sass/_global.scss */
+/* line 15, ../sass/_global.scss */
 th .table__notes {
   border: 3px solid black;
   width: 200px;
@@ -21,14 +22,14 @@ th .table__notes {
   box-sizing: border-box;
 }
 
-/* line 21, ../sass/_global.scss */
+/* line 22, ../sass/_global.scss */
 body {
   background-color: #bce1ff;
   font-family: 'Barlow', sans-serif;
   margin: 0;
 }
 
-/* line 27, ../sass/_global.scss */
+/* line 28, ../sass/_global.scss */
 table {
   border-collapse: collapse;
   float: left;
@@ -36,7 +37,7 @@ table {
   box-shadow: 10px 10px 15px #2c3e50;
 }
 
-/* line 34, ../sass/_global.scss */
+/* line 35, ../sass/_global.scss */
 td {
   border: 3px solid black;
   max-width: 200px;
@@ -45,7 +46,7 @@ td {
   padding: 0;
 }
 
-/* line 42, ../sass/_global.scss */
+/* line 43, ../sass/_global.scss */
 tr {
   background-color: white;
   margin: 30px;
@@ -53,12 +54,12 @@ tr {
   max-height: 200px;
 }
 
-/* line 49, ../sass/_global.scss */
+/* line 50, ../sass/_global.scss */
 th {
   background-color: #ffe97c;
 }
 
-/* line 53, ../sass/_global.scss */
+/* line 54, ../sass/_global.scss */
 li {
   width: 100%;
   height: 20px;
@@ -68,25 +69,25 @@ li {
   cursor: pointer;
 }
 
-/* line 62, ../sass/_global.scss */
+/* line 63, ../sass/_global.scss */
 ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
-/* line 68, ../sass/_global.scss */
+/* line 69, ../sass/_global.scss */
 .icon__comment {
   float: right;
   color: black;
   cursor: pointer;
 }
-/* line 72, ../sass/_global.scss */
+/* line 73, ../sass/_global.scss */
 .icon__comment:hover {
   color: #18bc9c;
 }
 
-/* line 77, ../sass/_global.scss */
+/* line 78, ../sass/_global.scss */
 button {
   width: 100px;
   height: 30px;
@@ -96,45 +97,45 @@ button {
   font-weight: 700;
 }
 
-/* line 87, ../sass/_global.scss */
+/* line 88, ../sass/_global.scss */
 .fa {
   float: right;
 }
-/* line 89, ../sass/_global.scss */
+/* line 90, ../sass/_global.scss */
 .fa:hover {
   color: #18bc9c;
   cursor: pointer;
 }
 
-/* line 94, ../sass/_global.scss */
+/* line 95, ../sass/_global.scss */
 .drop {
   min-height: 200px;
   background-color: white;
 }
 
-/* line 98, ../sass/_global.scss */
+/* line 99, ../sass/_global.scss */
 .mdc-card {
   width: 30%;
   margin: auto;
   background-color: white;
 }
 
-/* line 103, ../sass/_global.scss */
+/* line 104, ../sass/_global.scss */
 textarea {
   resize: none;
 }
 
-/* line 106, ../sass/_global.scss */
+/* line 107, ../sass/_global.scss */
 .mdc-form-field {
   display: block;
 }
 
-/* line 109, ../sass/_global.scss */
+/* line 110, ../sass/_global.scss */
 .mdc-text-field--box {
   width: 70%;
 }
 
-/* line 113, ../sass/_global.scss */
+/* line 114, ../sass/_global.scss */
 .mdc-text-field--textarea {
   width: 70%;
   margin-left: 10px;

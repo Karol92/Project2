@@ -17,7 +17,7 @@
     <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
     <script src="node_modules/material-components-web/dist/material-components-web.js"></script>
     <script type="text/javascript" src="{{ asset('assets/js/script.js') }}"></script>
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
 {% endblock javascripts %}
@@ -129,44 +129,9 @@
                     </div>
                 </td>
         </table>
-        <button id="cos" type="button" class="mdc-button mdc-button--raised mdc-elevation--z2">New
+        <button id="click" type="button" class="mdc-button mdc-button--raised mdc-elevation--z2">New
         </button>
         <div class="modal" id="myModal">
-            {#<div class="new__task">#}
-            {#<span class="close">&times;</span>#}
-            {#<label>Title</label>#}
-            {#<input type="text" name="Title" placeholder="Title:"/><br/>#}
-            {#<label>Description</label>#}
-            {#<textarea class="form1" rows="5" cols="22" placeholder="description"></textarea>#}
-            {#<label>Status</label>#}
-            {#<select name="status">#}
-            {#<option selected="selected">not urgent</option>#}
-            {#<option>urgent</option>#}
-            {#<option>important</option>#}
-            {#<option>not important</option>#}
-            {#</select><br>#}
-            {#<input type="checkbox">Show in Be Focused<br>#}
-            {#<input type="checkbox">Due Date#}
-            {#<input type="date">#}
-            {#<input type="time"><br>#}
-            {#<label>Flemind</label>#}
-            {#<select>#}
-            {#<option>1</option>#}
-            {#<option>2t</option>#}
-            {#<option>3</option>#}
-            {#</select><br>#}
-            {#<label>Move to Urgent</label>#}
-            {#<select>#}
-            {#<option>1</option>#}
-            {#<option>2</option>#}
-            {#<option>3</option>#}
-            {#</select><br>#}
-            {#<label>Tags</label>#}
-            {#<input type="text" name="butWyslij">#}
-            {#<button id="cos" type="button" class="add_task mdc-button mdc-button--raised">#}
-            {#Add#}
-            {#</button>#}
-            {#</div>#}
             <div class="mdc-card mdc-elevation--z24">
                 <i class="material-icons close">&#xE5CD;</i>
                 <section class="mdc-card__primary">
@@ -205,7 +170,7 @@
                     <label for="my-checkbox" id="my-checkbox-label">Is important?</label>
                 </div>
                 <section class="mdc-card__actions">
-                    <button id="cos" type="button" class="add_task mdc-button mdc-button--raised mdc-elevation--z2">
+                    <button id="click" type="button" class="add_task mdc-button mdc-button--raised mdc-elevation--z2">
                         Add
                     </button>
                 </section>

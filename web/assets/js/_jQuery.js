@@ -1,8 +1,5 @@
-
-
-
 window.onload = function () {
-    $("#cos, i").click(function () {
+    $("#click, i").click(function () {
         $("#myModal").show();
         $('.mdc-card').children("button").text("Add");
     });
@@ -28,10 +25,3 @@ window.onload = function () {
 
 
 };
-
-// $(document).ready(function () {
-//     $("input[type=checkbox]").click(function () {
-//         $("#title1").toggle();
-//     });
-// });
-
